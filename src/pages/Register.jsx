@@ -12,7 +12,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post('cs-sbd9-back-syahmi.vercel.app/user/register',
+      await axios.post('https://cs-sbd9-back-syahmi.vercel.app/user/register',
         {},
         {
           params: { name, email, password },
