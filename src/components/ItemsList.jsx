@@ -5,7 +5,7 @@ function ItemList() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/item')
+    axios.get('cs-sbd9-back-syahmi.vercel.app/item')
       .then(response => {
         setItems(response.data.payload);
       })

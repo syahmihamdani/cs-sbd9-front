@@ -12,8 +12,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post(
-        'http://localhost:3000/user/register',
+      await axios.post('cs-sbd9-back-syahmi.vercel.app/user/register',
         {},
         {
           params: { name, email, password },

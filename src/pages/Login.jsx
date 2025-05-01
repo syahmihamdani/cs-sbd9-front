@@ -11,7 +11,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:3000/user/login', {}, {
+      await axios.post('cs-sbd9-back-syahmi.vercel.app/user/login', {}, {
         params: { email, password },
         withCredentials: true
       });
